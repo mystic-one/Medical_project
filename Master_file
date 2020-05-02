@@ -1,0 +1,91 @@
+#include <stdio.h>
+#include <windows.h>
+#include <time.h>
+#include <stdlib.h>
+
+COORD coord = {0, 0};
+void gotoxy(int x, int y)
+{
+    COORD coord;
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
+void Login_Section();
+void Shop_Name();
+void timer();
+int Display_choice();
+
+
+int main()
+{
+    Login_Section();  // To display the login page
+    return 0;
+}
+
+// Please do modify the function from
+// void to int as per the requirment
+// and make changes accordingly
+
+void Login_Section()
+{
+
+    Shop_Name();
+    timer();
+
+    int choice;
+    choice = Display_choice();
+}
+
+void Shop_Name()
+{
+    gotoxy(55, 0); // To set cursor position to the top center of screen
+    printf("Medimart\n");
+    gotoxy(48, 1);
+    printf("Get Well, Live Better!\n");
+}
+
+void timer()
+{
+    struct tm* local;
+    time_t t = time(NULL);
+    local = localtime(&t);
+    gotoxy(90, 0);
+    printf("%s", asctime(local));  // asctime converts structures to strings
+}
+
+int Display_choice()
+{
+    // code for printing the rectangle
+    gotoxy(30, 6);
+    printf("*******************************************************\n");
+
+    int i;
+    for(i = 7; i <= 10; i++)
+    {
+        gotoxy(30, i);
+        printf("*                                                     *\n");
+    }
+
+        gotoxy(30, 11);
+    printf("*******************************************************\n\n");
+
+    gotoxy(45, 8);
+    printf("1. Administrator Section\n");
+
+    gotoxy(45, 9);
+    printf("2. Customer Section\n");
+
+
+    gotoxy(30,13);
+    printf("*******************************************************\n");
+
+    int c;
+    gotoxy(40, 15);
+    printf("Please Enter your choice no.: ");
+    scanf("%d", &c);
+
+    printf("\n\n");
+
+    return c;
+}
