@@ -1,0 +1,36 @@
+
+
+
+
+
+
+*************SUPPLIER INFO*************	
+
+
+   Supplier Name: Go_Medss
+   Field Name: Antibiotics
+   Supplier Code: GM-432
+   Contact Number: 9123454598
+   Email Address: Go_Medss@gmail.com
+   Address: Mumbai.
+
+   Supplier Name: Med_Care
+   Field Name: AyurVedic
+   Supplier Code: MC-352 
+   Contact Number: 7865835678
+   Email Address: Med_Care@gmail.com
+   Address: Pune.
+
+   Supplier Name: Med_Life
+   Field Name: Anti_Anxiety_drugs
+   Supplier Code: ML-487
+   Contact Number: 7865967489
+   Email Address: Med_Life@gmail.com
+   Address: Nagpur.
+
+   Supplier Name: Aditya
+   Field Name: Homeopathy
+   Supplier Code: 45hr32
+   Contact Number: 1234567890
+   Email Address: sample@gmail.com
+   Address: Sample

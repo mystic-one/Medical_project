@@ -1,0 +1,29 @@
+							
+							
+
+
+
+
+*************EMPLOYEE PROFILE*************	
+
+
+   Name: Omkar_Patil
+   Age: 18
+   Salary: 10000
+   Mobile Number: 7666446569
+   Email Address: op319@gmail.com
+   Address: Mayani_Road_Vita.
+
+   Name: Prathamesh_Mehare
+   Age: 19
+   Salary: 15000
+   Mobile Number: 9124768976
+   Email Address: prathamesh@gmail.com
+   Address: Miraj_Road_Sangli.
+
+   Name: Sweety_Gupta
+   Age: 18
+   Salary: 20000
+   Mobile Number: 9120304156
+   Email Address: sweety@gmail.com
+   Address: Gandhi_Road_Gondia.
